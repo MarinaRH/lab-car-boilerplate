@@ -11,10 +11,33 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  
   <header>
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="assets/images/logoForma.png">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Viaja</a></li>
+            <li><a href="#about">Conduce</a></li>
+            <li><a href="#contact">Inicia Sesion</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <section class="register">
-    <div>
+    <div class="reg rigth">
       <p>Disfruta del viaje</p>
       <p>Eres dueño de tu vida</p>
       <br>
@@ -27,19 +50,21 @@
     </div>
   </section>
   <section class="dowload">
-    <div>
-      <div>
-        <img src="" alt="">
-      </div>
-      <div>
-        <h2>Descarga la nueva app</h2>
-        <p>La version actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún mas fácil y rápido</p>
-        <p>Con solo tocar un botón, un auto llega justo a tu ubicacion. Súbete y no te preocupes: tu conductor sabe exactamente a donde ir</p>
+    <div class="dow">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <img src="assets/images/iPhone6Plus.png" alt="iphone">
+        </div>
+        <div class="col-xs-12 col-md-5">
+          <h2>Descarga la nueva app</h2>
+          <p>La version actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún mas fácil y rápido</p>
+          <p>Con solo tocar un botón, un auto llega justo a tu ubicacion. Súbete y no te preocupes: tu conductor sabe exactamente a donde ir</p>
+        </div>
       </div>
     </div>
   </section>
   <section class="driver">
-    <div>
+    <div class="driver-text rigth">
       <h2>Conduce cuando quieras</h2>
       <p>Labcar es una opcion flexible para alcanzar las metas financieras</p>
        <button>Conviertete en conductor</button>
@@ -52,11 +77,11 @@
         <p>Consulta las tarifas Labcar aquí</p>
         <form action="">
           <span>
-            <img src="" alt="">
+            <img src="assets/images/shape.png" alt="shape">
             <input type="text" name="" id="">
           </span>
           <span>
-            <img src="" alt="">
+            <img src="assets/images/shape2.png" alt="shape2">
             <input type="text" name="" id="">
           </span>
           <button>¡TRAZAR TU RUTA!</button>
