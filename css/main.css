@@ -2,10 +2,15 @@
 * {
 	box-sizing: border-box;
 	color:white;
+	font-family: 'Raleway', sans-serif;
 }
 /* reutilizables */
 .rigth{
 float: right;
+}
+
+.size{
+	font-size: 15px;
 }
 
 /* section register */
@@ -56,16 +61,21 @@ margin: 21px 0;
 	margin-bottom:-20px;
 }
 /* section dowload  */
-.dowload{
+.download{
 	background-color: rgb(247,182,23);
 	box-sizing:border-box ;
 	padding: 28px 160px 28px 0;
 }
 
-.dow{
+.download-row{
 	border: solid 1px white;
 	border-left: none;
 	box-sizing: border-box;
+	padding:28px 7px 28px 70px;
+}
+
+p.size{
+	padding-top: 14px;
 }
 /* section driver */
 .driver{
