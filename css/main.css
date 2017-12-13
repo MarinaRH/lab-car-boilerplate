@@ -88,7 +88,12 @@ p.size{
 }
 
 .driver-text{
-	background-color: opacity 0.4 ;
+	background-color: rgba(0, 0, 0, 0.315);
+	padding: 70px 14px 14px 14px;
+}
+
+.btn-warning {
+ background-color: rgb(247,182,23);
 }
 
 /* secction rates */
