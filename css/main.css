@@ -9,6 +9,10 @@
 float: right;
 }
 
+.left {
+	float: left;
+}
+
 .size{
 	font-size: 15px;
 }
@@ -28,6 +32,27 @@ float: right;
 .pad-bot{
 padding-bottom: 21px;
 }
+
+.font-weith {
+	font-weight:700; 
+}
+
+.btn-default{
+	font-weight: 900;
+}
+
+.btn-default:hover{
+	color: white;
+	background-color:black;
+	font-size:16px; 
+}
+
+/* header */
+.navbar-default{
+	background: white;
+	border:none;
+}
+
 /* section register */
 .register{
   background-image:url("../assets/images/taxi.jpg");
@@ -35,7 +60,7 @@ padding-bottom: 21px;
   background-position: center bottom;
   background-size: cover;
   width: 100%;
-  height: 150vh;
+  height: 120vh;
 }
 
 div.reg{
@@ -44,7 +69,7 @@ div.reg{
 	padding: 21px;
 	padding-right: 35px;
 }
-/* speudoclase para las lineas */
+/* pseudoclase para las lineas */
 span.line::before {
   display: inline-block;
 	height: 1px;
@@ -78,20 +103,16 @@ margin: 21px 0;
 /* section dowload  */
 .download{
 	background-color: rgb(247,182,23);
-	box-sizing:border-box ;
-	padding: 28px 160px 28px 0;
 }
 
-.download-row{
-	border: solid 1px white;
-	border-left: none;
+.dow-mobil {
 	box-sizing: border-box;
-	padding:28px 7px 28px 70px;
+	margin: 14px;
+	border: 1px solid white;
+	padding: 28px 0;
 }
 
-p.size{
-	padding-top: 14px;
-}
+
 /* section driver */
 .driver{
 	background-image:url("../assets/images/conduce.jpg");
@@ -104,7 +125,7 @@ p.size{
 
 .driver-text{
 	background-color: rgba(0, 0, 0, 0.315);
-	padding: 70px 14px 14px 14px;
+	padding: 80px 21px 230px 21px;
 }
 
 .btn-warning {
@@ -123,13 +144,16 @@ p.size{
 .img-map {
 height:70vh ;
 width: 100%;
+border:1px solid white;
+padding: 10px;
+margin-top: 35px;
 }
 
 input.control{
 	border-radius: 5px;
 	background-color: transparent;
 	border:1px solid white;
-	width:60%;
+	width:85%;
 	height: 30px;
 	margin-left: 14px;
 	color: white;
@@ -151,20 +175,60 @@ input.control{
 /* footer */
 footer{
 	background-color: rgb(43,43,43);
+	padding-top: 21px;
 }
 
 ul li{
 	list-style: none;
 }
 
-.flex-container {
-	height:70vh;
-	display: flex;
+ul li:hover,i:hover {
+	color:rgb(247,182,23);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight:700; 
 }
 
-.flex-end{
-	align-self: flex-end;
+@media (min-width: 992px) {
+	
+	/* seccion download */
+	.download {
+		padding: 28px 160px 28px 0;
+	}
+
+	.download-row{
+		border: solid 1px white;
+		border-left: none;
+		box-sizing: border-box;
+	
+	}
+	.dow-mobil {
+		border: none;
+	}
+
+/* section driver */
+	.driver-text{
+	  background-color: rgba(0, 0, 0, 0.315);
+		padding: 60px 21px 21px;
+	}
+
+	/* sectio rates */
+	input.control{
+		width:65%;
+	}
+	
+	/* section footer */
+	.flex-container {
+		height:50vh;
+		display: flex;
+	}
+	
+	.flex-end{
+		align-self: flex-end;
+	}
+
+	.icons-descktop{
+		float: left;
+	}
 }
-
-
 
