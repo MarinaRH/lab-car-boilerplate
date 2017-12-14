@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Lab Card</title>
     <!-- css de bootstarp -->
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
@@ -18,13 +19,13 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">
-            <img alt="Brand" src="assets/images/logoForma.png">
+            <img class="img-responsive" alt="Brand" src="assets/images/logoForma.png">
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
@@ -72,69 +73,78 @@
     </div>
   </section>
   <section class="rates">
-    <div>
-      <div>
-        <h2>Tarifas</h2>
-        <p>Consulta las tarifas Labcar aquí</p>
-        <form action="">
-          <span>
-            <img src="assets/images/shape.png" alt="shape">
-            <input type="text" name="" id="">
-          </span>
-          <span>
-            <img src="assets/images/shape2.png" alt="shape2">
-            <input type="text" name="" id="">
-          </span>
-          <button>¡TRAZAR TU RUTA!</button>
-        </form>
-      </div>
-      <div>
-        <img src="" alt="">
+    <div class="container rates-cont">
+      <div class="row">
+        <div class="col-xs-12 col-md-6" >
+          <h2>Tarifas</h2>
+          <p>Consulta las tarifas Labcar aquí</p>
+          <form action="">
+            <div class="destin">
+              <img class="img-responsive inline" src="assets/images/shape.png" alt="shape">
+              <input class="control inline" type="text" name="" placeholder="Ingrese su punto de Partida">
+            </div>
+            <br>
+            <div class="destin">
+              <img class="img-responsive inline" src="assets/images/shape2.png" alt="shape">
+                <input class="control inline" type="text" name="" placeholder="Ingrese su Destino">
+            </div>
+            <button class="btn btn-default center">¡TRAZAR TU RUTA!</button>
+          </form>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img class="img-responsive img-map" src="assets/images/mapa.jpg" alt="">
+        </div>
       </div>
     </div>
   </section>
   <footer>
-    <img src="" alt="">
-    <br>
-    <div>
-      <ul>
-        <li><i></i></li>
-        <li><i></i></li>
-        <li><i></i></li>
-        <li><i></i></li>
-        <li><i></i></li>
-      </ul>
+    <img class="img-responsive margin pad-bot" src="assets/images/logoBlanco.png" alt="">
+    <hr class="margin pad-bot">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-md-3 flex-container">
+          <ul class="list-inline flex-end">
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li> 
+            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            <li><i class="fa fa-apple" aria-hidden="true"></i></li>
+            <li><i class="fa fa-play" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <ul class="line-height">
+            <li>Viaja</li>
+            <li>Conduce</li>
+            <li>Ciudades</li>
+            <li>Ciudades</li>
+            <li>Entregas</li>
+            <li>Como funciona?</li>
+            <li>Paises</li>
+            <li>Seguridad</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <ul class="line-height">
+            <li>Oportunidades</li>
+            <li>Nuestra historia</li>
+            <li>API de LabCar</li>
+            <li>Eventos</li>
+            <li>Desarrolladores</li>
+            <li>Servicios</li>
+            <li>Laboratoria</li>
+            <li>Coders</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-3 flex-container">
+          <div class="flex-end">
+            <img class="img-responsive pad-bot" src="assets/images/enBadgeWebGeneric.png" alt="Badge">
+            <img class="img-responsive pad-bot" src="assets/images/appstore.png" alt="">
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-      <ul>
-        <li>Viaja</li>
-        <li>Conduce</li>
-        <li>Ciudades</li>
-        <li>Ciudades</li>
-        <li>Entregas</li>
-        <li>Como funciona?</li>
-        <li>Paises</li>
-        <li>Seguridad</li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>Oportunidades</li>
-        <li>Nuestra historia</li>
-        <li>API de LabCar</li>
-        <li>Eventos</li>
-        <li>Desarrolladores</li>
-        <li>Servicios</li>
-        <li>Laboratoria</li>
-        <li>Coders</li>
-      </ul>
-    </div>
-     <div>
-       <img src="" alt="">
-       <img src="" alt="">
-     </div>
-     <br>
-     <p>&#169 2017 LabCar technologies Inc.</p>
+    <hr class="margin">
+    <p>&#169 2017 LabCar technologies Inc.</p>
   </footer>
   <!-- jQuery -->
   <script type="text/javascript" src="vendors/bootstrap/js/jquery-3.2.1.min.js"></script>
