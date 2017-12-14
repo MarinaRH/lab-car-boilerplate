@@ -16,16 +16,18 @@
   
   <header>
     <!--Navbar-->
-    <nav class="navbar">
+    <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            <img class="img-responsive" alt="Brand" src="assets/images/logoForma.png">
+          <a class="navbar-brand rigth" href="#">
+            <img class="img-responsive " alt="Brand" src="assets/images/logoForma.png">
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
@@ -39,7 +41,7 @@
     </nav>
   </header>
   <section class="register">
-    <div class="reg rigth">
+    <div class="reg rigth hidden-xs hidden-sm">
       <h3 class="title-register">Disfruta del viaje</h3>
       <h3>Eres dueño de tu vida</h3>
       <br>
@@ -52,24 +54,33 @@
     </div>
   </section>
   <section class="download">
-    <div class="download-row">
-      <div class="row">
-        <div class="col-xs-12 col-md-6">
+    <!-- seccion para descktop -->
+    <div class="container download-row">
+      <div class="row ">
+        <div class="col-xs-11 col-md-6 dow-mobil center">
+          <h1 class="hidden-md hidden-lg font-weith">La Nueva App</h1>
           <img src="assets/images/iPhone6Plus.png" alt="iphone">
         </div>
-        <div class="col-xs-12 col-md-4">
-          <h2>Descarga la nueva app</h2>
-          <p class="size">La version actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún mas fácil y rápido</p>
-          <p class="size">Con solo tocar un botón, un auto llega justo a tu ubicacion. Súbete y no te preocupes: tu conductor sabe exactamente a donde ir</p>
+        <div class="col-md-4 hidden-xs hidden-sm">
+          <h3 class="pad-bot">Descarga la nueva app</h3>
+          <p class="pad-bot">La version actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún mas fácil y rápido</p>
+          <p>Con solo tocar un botón, un auto llega justo a tu ubicacion. Súbete y no te preocupes: tu conductor sabe exactamente a donde ir</p>
+        </div>
+        <div class="col-xs-12 hidden-md hidden-lg center">
+          <h4 class="font-weith">Llega a tu destino aun mas rapido</h4>
         </div>
       </div>
     </div>
   </section>
   <section class="driver">
-    <div class="driver-text rigth">
-      <h2>Conduce cuando quieras</h2>
-      <p>Labcar es una opcion flexible para alcanzar <br>las metas financieras</p>
-       <button class="btn btn-warning">Conviertete en conductor</button>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-4 driver-text rigth">
+          <h3 class="font-weith">Conduce cuando quieras</h3>
+          <p class="size">Labcar es una opcion flexible para alcanzar las <br> metas financieras</p>
+          <button class="btn btn-warning font-weith">Conviertete en conductor</button>
+        </div>
+      </div>
     </div>
   </section>
   <section class="rates">
@@ -77,33 +88,36 @@
       <div class="row">
         <div class="col-xs-12 col-md-6" >
           <h2>Tarifas</h2>
-          <p>Consulta las tarifas Labcar aquí</p>
+          <p class="pad-bot">Consulta las tarifas Labcar aquí</p>
           <form action="">
             <div class="destin">
               <img class="img-responsive inline" src="assets/images/shape.png" alt="shape">
               <input class="control inline" type="text" name="" placeholder="Ingrese su punto de Partida">
             </div>
             <br>
-            <div class="destin">
+            <div class="destin pad-bot">
               <img class="img-responsive inline" src="assets/images/shape2.png" alt="shape">
                 <input class="control inline" type="text" name="" placeholder="Ingrese su Destino">
             </div>
-            <button class="btn btn-default center">¡TRAZAR TU RUTA!</button>
+            <button class="btn btn-default center-block">¡TRAZAR TU RUTA!</button>
           </form>
         </div>
         <div class="col-xs-12 col-md-6">
-          <img class="img-responsive img-map" src="assets/images/mapa.jpg" alt="">
+          <picture>
+            <source media="(max-width:768px)" srcset="assets/images/map-mob.png">
+            <img class="img-responsive img-map" src="assets/images/mapa.png" alt="">
+          </picture>
         </div>
       </div>
     </div>
   </section>
   <footer>
     <img class="img-responsive margin pad-bot" src="assets/images/logoBlanco.png" alt="">
-    <hr class="margin pad-bot">
+    <hr class="pad-bot margin">
     <div class="container">
       <div class="row">
-        <div class="col-xs-6 col-md-3 flex-container">
-          <ul class="list-inline flex-end">
+        <div class="col-xs-6 col-md-3 flex-container icons-descktop rigth">
+          <ul class="list-inline flex-end pad-bot">
             <li><i class="fa fa-facebook" aria-hidden="true"></i></li> 
             <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
             <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
@@ -111,7 +125,7 @@
             <li><i class="fa fa-play" aria-hidden="true"></i></li>
           </ul>
         </div>
-        <div class="col-xs-6 col-md-3">
+        <div class="col-xs-6 col-md-3 left">
           <ul class="line-height">
             <li>Viaja</li>
             <li>Conduce</li>
@@ -123,7 +137,7 @@
             <li>Seguridad</li>
           </ul>
         </div>
-        <div class="col-xs-6 col-md-3">
+        <div class="col-xs-6 col-md-3 hidden-xs hidden-sm">
           <ul class="line-height">
             <li>Oportunidades</li>
             <li>Nuestra historia</li>
@@ -135,7 +149,7 @@
             <li>Coders</li>
           </ul>
         </div>
-        <div class="col-xs-6 col-md-3 flex-container">
+        <div class="col-xs-6 col-md-3 flex-container rigth">
           <div class="flex-end">
             <img class="img-responsive pad-bot" src="assets/images/enBadgeWebGeneric.png" alt="Badge">
             <img class="img-responsive pad-bot" src="assets/images/appstore.png" alt="">
@@ -143,8 +157,8 @@
         </div>
       </div>
     </div>
-    <hr class="margin">
-    <p>&#169 2017 LabCar technologies Inc.</p>
+    <hr class="margin pad-bot">
+    <p class="margin pad-bot">&#169 2017 LabCar technologies Inc.</p>
   </footer>
   <!-- jQuery -->
   <script type="text/javascript" src="vendors/bootstrap/js/jquery-3.2.1.min.js"></script>
