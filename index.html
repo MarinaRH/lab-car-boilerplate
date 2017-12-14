@@ -82,12 +82,66 @@
       <h3 class="font-weith">Eres dueño de tu vida</h3>
       <br>
       <p>Viaja con <span><img class="log-white" src="assets/images/logoBlanco.png" alt=""></span></p>
-      <button class="btn btn-default">REGISTRATE</button>
+      <button class="btn btn-default" data-toggle="modal" data-target="#modalRegister" data-whatever="@mdo">REGISTRATE</button>
       <div class="div-line">
         <span class="line">o bien</span>
       </div>
       <button class="btn btn-default">Conviértete en conductor</button>
     </div>
+    <!-- inicio de modal register -->
+    <div class="modal fade " id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog " role="document">
+        <div class="modal-content modal-reg ">
+          <div class="modal-header center">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <button type="button" class="btn btn-default btn-black btn-lg btn-block">Ya tienes una cuenta?</button>
+              <p class="center">CREA UNA CUENTA NUEVA</p>
+              <div class="form-group">
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="password" class="form-control"  placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+              </div>
+              <button type="button" class="btn btn-default btn-lg btn-block">Como te enterazte de nosotros?</button>
+              <button type="button" class="btn btn-info btn-lg btn-block">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fin de modal register -->
   </section>
   <section class="download">
     <!-- seccion para descktop -->

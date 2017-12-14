@@ -9,3 +9,14 @@
 .modal-content {
   background-color: rgb(8, 163, 143);
 }
+
+/* modal de register */
+.modal-reg{
+	background-color: rgba(171, 172, 172, 0.541);
+}
+
+.btn-black {
+	background-color: black;
+	color: white;
+	border: none
+}
