@@ -65,27 +65,10 @@ padding-bottom: 21px;
 
 div.reg{
 	background-color: rgb(247,182,23);
-	margin-top:30vh; 
-	padding: 21px;
-	padding-right: 35px;
-}
-/* pseudoclase para las lineas */
-span.line::before {
-  display: inline-block;
-	height: 1px;
-	margin-right: 49px;
-  content: " ";
-  background-color: white;
-	width: 110px;
-}
-
-span.line::after {
-  display: inline-block;
-  height: 1px;
-	content: " ";
-	margin-left: 49px;
-  background-color: white;
-  width: 110px;
+	margin-top:25vh; 
+	padding: 35px;
+	padding-right: 100px;
+	letter-spacing: 2px;
 }
 
 img.log-white {
@@ -189,8 +172,36 @@ ul li:hover,i:hover {
 	font-weight:700; 
 }
 
+.img-foot {
+width: 24vh;
+}
+
 @media (min-width: 992px) {
+	/* section register */
+	div.reg{
+		margin-top:28vh; 
+		padding: 28px;
+		padding-right: 35px;
+	}
+	/* pseudoclase para las lineas */
+	span.line::before {
+		display: inline-block;
+		height: 1px;
+		margin-right: 49px;
+		content: " ";
+		background-color: white;
+		width: 110px;
+	}
 	
+	span.line::after {
+		display: inline-block;
+		height: 1px;
+		content: " ";
+		margin-left: 49px;
+		background-color: white;
+		width: 110px;
+	}
+
 	/* seccion download */
 	.download {
 		padding: 28px 160px 28px 0;
