@@ -14,7 +14,7 @@ float: right;
 }
 
 .size{
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .center {
@@ -204,13 +204,14 @@ width: 24vh;
 
 	/* seccion download */
 	.download {
-		padding: 28px 160px 28px 0;
+		padding: 35px 200px 28px 0;
 	}
 
 	.download-row{
 		border: solid 1px white;
 		border-left: none;
 		box-sizing: border-box;
+		padding-right: 24vh;
 	
 	}
 	.dow-mobil {
