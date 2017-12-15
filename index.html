@@ -59,10 +59,12 @@
                 </div>
                 <br>
                 <div class="input-group">
-                  <span class="input-group-addon">@</span>
+                  <span class="input-group-addon glyphicon glyphicon-align-left" aria-hidden="true"></span>
                   <input type="text" class="form-control" placeholder="password">
-                </div>
-                <button type="submit" class="btn btn-warning center">LOGING</button>
+                </div><br>
+                <div class="center">
+                  <button type="submit" class="btn btn-warning">LOGING</button>
+                </div><br>
                 <p>forge password <span>click</span></p>
               </div>
             </form>
@@ -86,10 +88,10 @@
       <div class="div-line">
         <span class="line">o bien</span>
       </div>
-      <button class="btn btn-default">Conviértete en conductor</button>
+      <button class="btn btn-default" data-toggle="modal" data-target="#modalDriver" data-whatever="@mdo">Conviértete en conductor</button>
     </div>
     <!-- inicio de modal register -->
-    <div class="modal fade " id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalRegister" tabindex="-1" role="dialog"               aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog " role="document">
         <div class="modal-content modal-reg ">
           <div class="modal-header center">
@@ -142,6 +144,47 @@
       </div>
     </div>
     <!-- fin de modal register -->
+    <!-- inicio modal conviertet en conductor -->
+    <div class="modal fade" id="modalDriver" tabindex="-1" role="dialog"                  aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog " role="document">
+        <div class="modal-content modal-reg">
+          <div class="modal-header center">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <label>Tienes vehiculos de 4 puertas?</label>
+              <select class="form-control">
+                <option value="">Sí</option>
+                <option value="">No</option>
+              </select><br>
+              <label>Marca</label>
+              <select class="form-control">
+                <option value="">Elige la marca de vehiculo</option>
+              </select>
+              <p class="help-block">¿No ves tu vehículo en la lista Envía un correo electronico a <br><a href="mailto:#">sociosmdv@uber.com</a></span></p> <br>
+              <label>Modelo</label>
+              <select class="form-control">
+                <option value="">Modelo1</option>
+              </select><br>
+              <label>Año</label>
+              <select class="form-control">
+                <option value="">2017</option>
+              </select><br>
+              <label>Número de la Matrícula</label>
+              <select class="form-control">
+                <option value="">Número de la Matrícula</option>
+              </select>
+              <p >La informacionde la matrícula ayuda a los clientes a identificar <br> tu vehículo</p>
+              <button type="button" class="btn btn-info btn-lg btn-block">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fin de modal convierte en conductor -->
   </section>
   <section class="download">
     <!-- seccion para descktop -->
