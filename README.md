@@ -1,4 +1,4 @@
-# MI PAGINA(WIKI)
+# LAB-CAR (BOOTSTRAP)
 
 * **Track:** _Common Core_
 * **Curso:** _Crea tu propia red social_
@@ -6,27 +6,32 @@
 
 ***
 
-Replicamos la pagina Lab Car de manera responsive para mobile y para desktop con la libreria de *BOOTSTRAP*
+Replicamos la pagina Lab Car de manera responsive para mobile y para desktop con la libreria de *BOOTSTRAP*.
 
-## Desarrollo:
-* LA VERSION DESKTOP
+# Desarrollo:
+*  VERSION DESKTOP
 
-![MOBIL](assets/images/desktop.png)
+![DESKTOP](assets/images/desktop.png)
 
-* LA VERSION MOBILE
+*  VERSION MOBILE
 
 En nuestro diseño de mobile se utilizo las grillas y las imagenes responsive
 
 ![MOBIL](assets/images/movil.png)
 
-* MODAL DE LOGIN
+# MODALES
+
+Como extra tenemos los modales necesarios en la versión web,utilizando el bootstrap para modales.
+
+## Modal de Inicia Sesión 
 
 ![MOBIL](assets/images/log.png)
 
-* MODAL DE REGISTRAR CONDUCTOR
+## Modal de Regístrate
+
 
 ![MOBIL](assets/images/reg.png)
 
-* MODAL DE REGISTRAR CONDUCTOR
+## Modal de Convierte en conductor
 
 ![MOBIL](assets/images/cond.png)
