@@ -48,24 +48,24 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <img src="mapa.png" alt="">
+            <img src="assets/images/login.gif" alt="">
           </div>
           <div class="modal-body">
             <form class="form-block form-loggin">
               <div class="form-group">
                 <div class="input-group">
-                  <span class="input-group-addon">@</span>
+                  <span class="input-group-addon glyphicon glyphicon-user"></span>
                   <input type="text" class="form-control" placeholder="Username">
                 </div>
                 <br>
                 <div class="input-group">
-                  <span class="input-group-addon glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                  <span class="input-group-addon glyphicon glyphicon-lock" aria-hidden="true"></span>
                   <input type="text" class="form-control" placeholder="password">
                 </div><br>
                 <div class="center">
                   <button type="submit" class="btn btn-warning">LOGING</button>
                 </div><br>
-                <p>forge password <span>click</span></p>
+                <p>Forgot password? <span class="red">Click Here</span></p>
               </div>
             </form>
           </div>
@@ -74,27 +74,32 @@
     </div>
     <!-- fin de modal de login -->
   </header>
+  <!-- inicio de section register -->
   <section class="register">
-    <div class="reg rigth hidden-md hidden-lg">
-      <h1 class="font-weith pad-bot">Comienza a viajar<br>con<span><img class="log-white" src="assets/images/logoBlanco.png" alt=""></span></h1>
-      <button class="btn btn-default btn-lg">Descarga el app</button>
-    </div>
-    <div class="reg rigth hidden-xs hidden-sm">
-      <h3 class="title-register font-weith">Disfruta del viaje</h3>
-      <h3 class="font-weith">Eres dueño de tu vida</h3>
-      <br>
-      <p>Viaja con <span><img class="log-white" src="assets/images/logoBlanco.png" alt=""></span></p>
-      <button class="btn btn-default" data-toggle="modal" data-target="#modalRegister" data-whatever="@mdo">REGISTRATE</button>
-      <div class="div-line">
-        <span class="line">o bien</span>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-10 reg rigth hidden-md hidden-lg hidden-sm">
+          <h2 class="font-weith pad-bot">Comienza a viajar<br>con<span><img class="log-white" src="assets/images/logoBlanco.png" alt=""></span></h2>
+          <button class="btn btn-default btn-lg">Descarga el app</button>
+        </div>
+        <div class=" col-md-4 reg rigth hidden-xs">
+          <h3 class="title-register font-weith">Disfruta del viaje</h3>
+          <h3 class="font-weith">Eres dueño de tu vida</h3>
+          <br>
+          <p>Viaja con <span><img class="log-white" src="assets/images/logoBlanco.png" alt=""></span></p>
+          <button class="btn btn-default" data-toggle="modal" data-target="#modalRegister" data-whatever="@mdo">REGISTRATE</button>
+          <div class="div-line">
+            <span class="line">o bien</span>
+          </div>
+          <button class="btn btn-default" data-toggle="modal" data-target="#modalDriver" data-whatever="@mdo">Conviértete en conductor</button>
+        </div>
       </div>
-      <button class="btn btn-default" data-toggle="modal" data-target="#modalDriver" data-whatever="@mdo">Conviértete en conductor</button>
     </div>
     <!-- inicio de modal register -->
     <div class="modal fade" id="modalRegister" tabindex="-1" role="dialog"               aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog " role="document">
         <div class="modal-content modal-reg ">
-          <div class="modal-header center">
+          <div class="modal-header modal-head center">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -102,41 +107,41 @@
           <div class="modal-body">
             <form class="form-horizontal">
               <button type="button" class="btn btn-default btn-black btn-lg btn-block">Ya tienes una cuenta?</button>
-              <p class="center">CREA UNA CUENTA NUEVA</p>
+              <p class="center"> O CREA UNA CUENTA NUEVA</p>
               <div class="form-group">
                 <div class="col-md-6">
-                  <input type="email" class="form-control" placeholder="Email">
+                  <input type="email" class="form-control" placeholder="Nombre">
                 </div>
                 <div class="col-md-6">
-                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="email" class="form-control" placeholder="Apellido">
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-12">
-                  <input type="password" class="form-control"  placeholder="Password">
+                  <input type="password" class="form-control"  placeholder="Correo Electronico:ejemplo@correo.mx">
                 </div>
               </div>
               <div class="form-group">
                   <div class="col-sm-12">
-                    <input type="password" class="form-control" placeholder="Password">
+                    <input type="password" class="form-control" placeholder="Telefono">
                   </div>
               </div>
               <div class="form-group">
                   <div class="col-sm-12">
-                    <input type="password" class="form-control" placeholder="Password">
+                    <input type="password" class="form-control" placeholder="Contraseña">
                   </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-12">
-                  <input type="password" class="form-control" placeholder="Password">
+                  <input type="password" class="form-control" placeholder="Ciudad">
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-12">
-                  <input type="password" class="form-control" placeholder="Password">
+                  <input type="password" class="form-control" placeholder="Codigo de invitacion(opcional)">
                 </div>
               </div>
-              <button type="button" class="btn btn-default btn-lg btn-block">Como te enterazte de nosotros?</button>
+              <button type="button" class="btn btn-default btn-lg btn-block">Como te enterazte de nosotros?<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></button>
               <button type="button" class="btn btn-info btn-lg btn-block">ENVIAR</button>
             </form>
           </div>
@@ -148,7 +153,7 @@
     <div class="modal fade" id="modalDriver" tabindex="-1" role="dialog"                  aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog " role="document">
         <div class="modal-content modal-reg">
-          <div class="modal-header center">
+          <div class="modal-header modal-head center">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -186,6 +191,8 @@
     </div>
     <!-- fin de modal convierte en conductor -->
   </section>
+  <!-- fin de section register -->
+  <!-- inicio de section dowload -->
   <section class="download">
     <!-- seccion para descktop -->
     <div class="container-fluid download-row">
@@ -205,6 +212,8 @@
       </div>
     </div>
   </section>
+  <!-- fin de section download -->
+  <!-- inicio de section driver -->
   <section class="driver">
     <div class="container-fluid">
       <div class="row">
@@ -216,6 +225,8 @@
       </div>
     </div>
   </section>
+  <!-- fin de section driver -->
+  <!-- inicio de section rates -->
   <section class="rates">
     <div class="container rates-cont">
       <div class="row">
@@ -244,6 +255,8 @@
       </div>
     </div>
   </section>
+  <!-- fin de section rates -->
+  <!-- inicio de footer -->
   <footer>
     <img class="img-responsive margin pad-bot" src="assets/images/logoBlanco.png" alt="">
     <hr class="pad-bot margin">

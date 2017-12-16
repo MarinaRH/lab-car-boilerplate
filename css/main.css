@@ -6,7 +6,7 @@
 }
 /* reutilizables */
 .rigth{
-float: right;
+    float: right;
 }
 
 .left {
@@ -30,7 +30,7 @@ float: right;
 }
 
 .pad-bot{
-padding-bottom: 21px;
+    padding-bottom: 21px;
 }
 
 .font-weith {
@@ -46,8 +46,8 @@ padding-bottom: 21px;
 	background-color:black;
 	font-size:16px; 
 }
-
-/* header */
+/* clases para mobile */
+/* section header */
 .navbar-default{
 	background: white;
 	border:none;
@@ -64,28 +64,28 @@ padding-bottom: 21px;
 }
 
 div.reg{
-	background-color: rgb(247,182,23);
-	margin-top:25vh; 
-	padding: 35px;
-	padding-right: 100px;
-	letter-spacing: 2px;
+  background-color: rgb(247,182,23);
+  margin-top:25vh; 
+  padding: 35px;
+  letter-spacing: 2px;
 }
 
 img.log-white {
-padding-left:14px;
-width: 70px;
+  padding-left:14px;
+  width: 85px;
 }
 
 .div-line{
-margin: 21px 0;
+  margin: 21px 0;
 }
 
 .title-register{
-	margin-bottom:-20px;
+  margin-bottom:-20px;
 }
+
 /* section dowload  */
 .download{
-	background-color: rgb(247,182,23);
+   background-color: rgb(247,182,23);
 }
 
 .dow-mobil {
@@ -95,10 +95,9 @@ margin: 21px 0;
 	padding: 28px 0;
 }
 
-
 /* section driver */
 .driver{
-	background-image:url("../assets/images/conduce.jpg");
+  background-image:url("../assets/images/conduce.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -125,11 +124,11 @@ margin: 21px 0;
 }
 
 .img-map {
-height:70vh ;
-width: 100%;
-border:1px solid white;
-padding: 10px;
-margin-top: 35px;
+  height:70vh ;
+  width: 100%;
+  border:1px solid white;
+  padding: 10px;
+  margin-top: 35px;
 }
 
 input.control{
@@ -173,21 +172,20 @@ ul li:hover,i:hover {
 }
 
 .img-foot {
-width: 24vh;
+    width: 24vh;
 }
 
 @media (min-width: 992px) {
 	/* section register */
 	div.reg{
 		margin-top:28vh; 
-		padding: 28px;
-		padding-right: 35px;
+		padding: 21px;
 	}
 	/* pseudoclase para las lineas */
 	span.line::before {
 		display: inline-block;
 		height: 1px;
-		margin-right: 49px;
+		margin-right: 35px;
 		content: " ";
 		background-color: white;
 		width: 110px;
@@ -197,7 +195,7 @@ width: 24vh;
 		display: inline-block;
 		height: 1px;
 		content: " ";
-		margin-left: 49px;
+		margin-left: 35px;
 		background-color: white;
 		width: 110px;
 	}
@@ -218,10 +216,10 @@ width: 24vh;
 		border: none;
 	}
 
-/* section driver */
+    /* section driver */
 	.driver-text{
 	  background-color: rgba(0, 0, 0, 0.315);
-		padding: 60px 21px 21px;
+	  padding: 60px 21px 21px;
 	}
 
 	/* sectio rates */

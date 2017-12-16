@@ -1,11 +1,15 @@
 .form-loggin{
   width:60%;
-  background-color: rgba(212, 211, 211, 0.712);
+  background-color: rgba(212, 211, 211, 0.746);
   padding: 21px;
   margin-left: 18vh;
 }
 .modal-content {
-  background-color: rgba(8, 163, 142, 0.815);
+  background-color: rgba(8, 163, 140, 0.87);
+}
+
+.red {
+	color: rgb(161, 40, 40);
 }
 /* modal de register */
 .modal-reg{
@@ -25,7 +29,7 @@
 	color: white;
 	border: none
 }
-.modal-header{
+.modal-head{
 	border:none;
 }
 
