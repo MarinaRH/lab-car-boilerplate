@@ -11,6 +11,10 @@
 .red {
 	color: rgb(161, 40, 40);
 }
+
+.black {
+	color:black;
+}
 /* modal de register */
 .modal-reg{
 	background-color: rgba(159, 161, 161, 0.911);
